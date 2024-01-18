@@ -1,6 +1,8 @@
+/**
+ * This package contains classes related to Exercise 1.
+ */
 package exercise1;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -105,14 +107,3 @@ class Singer {
         this.albumsPublished = albumsPublished;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
