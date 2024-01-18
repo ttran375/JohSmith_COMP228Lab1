@@ -22,3 +22,4 @@ jobs:
       - name: Run google-java-format
         run: |
           ./gradlew spotlessApply --no-daemon
+        working-directory: JohSmith_COMP228Lab1
