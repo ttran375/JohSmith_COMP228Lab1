@@ -5,6 +5,7 @@ package exercise1;
  */
 public class Main {
     public static void main(final String[] args) {
+        
         Singer singer1 = new Singer();
 
         System.out.println("Default values for singer1:");
