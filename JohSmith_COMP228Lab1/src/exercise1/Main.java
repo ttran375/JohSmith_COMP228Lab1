@@ -105,3 +105,14 @@ class Singer {
         this.albumsPublished = albumsPublished;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
