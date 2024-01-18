@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Display values after setting all:");
         displaySingerDetails(singer1);
 
-        singer1.setSingerName("Jane Doe");
+        singer1.setSingerId(2);
         singer1.setSingerName("Jane Doe");
         singer1.setSingerAddress("456 Oak St");
         singer1.setDateOfBirth("1985-05-15");
@@ -99,7 +99,11 @@ class Singer {
         this.albumsPublished = albumsPublished;
     }
 
-    public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
+    public void setAllValues(
+            int singerId,
+            String singerName,
+            String singerAddress,
+            String dateOfBirth,
             int albumsPublished) {
         this.singerId = singerId;
         this.singerName = singerName;
