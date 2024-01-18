@@ -1,7 +1,10 @@
 package exercise1;
 
+/**
+ * Main class for exercising Singer class.
+ */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Singer singer1 = new Singer();
 
         System.out.println("Default values for singer1:");
@@ -21,7 +24,12 @@ public class Main {
         displaySingerDetails(singer1);
     }
 
-    private static void displaySingerDetails(Singer singer) {
+    /**
+     * Display details of a singer.
+     *
+     * @param singer The singer object.
+     */
+    private static void displaySingerDetails(final Singer singer) {
         System.out.println("Singer ID: " + singer.getSingerId());
         System.out.println("Singer Name: " + singer.getSingerName());
         System.out.println("Singer Address: " + singer.getSingerAddress());
@@ -30,6 +38,9 @@ public class Main {
     }
 }
 
+/**
+ * Singer class representing a singer.
+ */
 class Singer {
     private int singerId;
     private String singerName;
@@ -37,6 +48,9 @@ class Singer {
     private String dateOfBirth;
     private int albumsPublished;
 
+    /**
+     * Default constructor for Singer class.
+     */
     public Singer() {
         this.singerId = 0;
         this.singerName = "Unknown";
@@ -45,7 +59,17 @@ class Singer {
         this.albumsPublished = 0;
     }
 
-    public Singer(int singerId, String singerName, String singerAddress, String dateOfBirth, int albumsPublished) {
+    /**
+     * Parameterized constructor for Singer class.
+     *
+     * @param singerId        The singer ID.
+     * @param singerName      The singer name.
+     * @param singerAddress   The singer address.
+     * @param dateOfBirth     The date of birth.
+     * @param albumsPublished The number of albums published.
+     */
+    public Singer(final int singerId, final String singerName, final String singerAddress,
+            final String dateOfBirth, final int albumsPublished) {
         this.singerId = singerId;
         this.singerName = singerName;
         this.singerAddress = singerAddress;
