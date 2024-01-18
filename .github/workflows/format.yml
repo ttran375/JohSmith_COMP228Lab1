@@ -1,0 +1,25 @@
+name: Format Java Code
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '11'
+
+      - name: Run google-java-format
+        run: |
+          ./gradlew spotlessApply --no-daemon
+        working-directory: your_project_directory
