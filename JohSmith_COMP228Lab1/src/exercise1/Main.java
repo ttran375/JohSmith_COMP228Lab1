@@ -94,14 +94,14 @@ class Singer {
     public void setAlbumsPublished(int albumsPublished) {
         this.albumsPublished = albumsPublished;
     }
+
+    // Setter to set all instance variables at once
+    public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
+            int albumsPublished) {
+        this.singerId = singerId;
+        this.singerName = singerName;
+        this.singerAddress = singerAddress;
+        this.dateOfBirth = dateOfBirth;
+        this.albumsPublished = albumsPublished;
+    }
 }
-
-
-
-
-
-
-
-
-
-
