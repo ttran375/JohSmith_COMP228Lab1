@@ -3,7 +3,7 @@ package exercise1;
 /**
  * Main class for exercising Singer class.
  */
-public class Main {
+public final class Main {
     /**
      * The initial number of albums for a singer.
      */
