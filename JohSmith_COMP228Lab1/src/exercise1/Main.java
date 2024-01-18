@@ -3,9 +3,12 @@ package exercise1;
 /**
  * Main class for exercising Singer class.
  */
-public class Main {
+public final class Main {
+    private Main() {
+        // Prevent instantiation
+    }
+
     public static void main(final String[] args) {
-        
         Singer singer1 = new Singer();
 
         System.out.println("Default values for singer1:");
@@ -44,6 +47,12 @@ public class Main {
  * Singer class representing a singer.
  */
 class Singer {
+    private static final int DEFAULT_ID = 0;
+    private static final String DEFAULT_NAME = "Unknown";
+    private static final String DEFAULT_ADDRESS = "Unknown";
+    private static final String DEFAULT_DOB = "Unknown";
+    private static final int DEFAULT_ALBUMS = 0;
+
     private int singerId;
     private String singerName;
     private String singerAddress;
@@ -54,78 +63,78 @@ class Singer {
      * Default constructor for Singer class.
      */
     public Singer() {
-        this.singerId = 0;
-        this.singerName = "Unknown";
-        this.singerAddress = "Unknown";
-        this.dateOfBirth = "Unknown";
-        this.albumsPublished = 0;
+        this.singerId = DEFAULT_ID;
+        this.singerName = DEFAULT_NAME;
+        this.singerAddress = DEFAULT_ADDRESS;
+        this.dateOfBirth = DEFAULT_DOB;
+        this.albumsPublished = DEFAULT_ALBUMS;
     }
 
     /**
      * Parameterized constructor for Singer class.
      *
-     * @param singerId        The singer ID.
-     * @param singerName      The singer name.
-     * @param singerAddress   The singer address.
-     * @param dateOfBirth     The date of birth.
-     * @param albumsPublished The number of albums published.
+     * @param id      The singer ID.
+     * @param name    The singer name.
+     * @param address The singer address.
+     * @param dob     The date of birth.
+     * @param albums  The number of albums published.
      */
-    public Singer(final int singerId, final String singerName, final String singerAddress,
-            final String dateOfBirth, final int albumsPublished) {
-        this.singerId = singerId;
-        this.singerName = singerName;
-        this.singerAddress = singerAddress;
-        this.dateOfBirth = dateOfBirth;
-        this.albumsPublished = albumsPublished;
+    public Singer(final int id, final String name, final String address,
+            final String dob, final int albums) {
+        this.singerId = id;
+        this.singerName = name;
+        this.singerAddress = address;
+        this.dateOfBirth = dob;
+        this.albumsPublished = albums;
     }
 
     public int getSingerId() {
         return this.singerId;
     }
 
-    public void setSingerId(int singerId) {
-        this.singerId = singerId;
+    public void setSingerId(final int id) {
+        this.singerId = id;
     }
 
     public String getSingerName() {
         return this.singerName;
     }
 
-    public void setSingerName(String singerName) {
-        this.singerName = singerName;
+    public void setSingerName(final String name) {
+        this.singerName = name;
     }
 
     public String getSingerAddress() {
         return this.singerAddress;
     }
 
-    public void setSingerAddress(String singerAddress) {
-        this.singerAddress = singerAddress;
+    public void setSingerAddress(final String address) {
+        this.singerAddress = address;
     }
 
     public String getDateOfBirth() {
         return this.dateOfBirth;
     }
 
-    public void setDateOfBirth(String dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setDateOfBirth(final String dob) {
+        this.dateOfBirth = dob;
     }
 
     public int getAlbumsPublished() {
         return this.albumsPublished;
     }
 
-    public void setAlbumsPublished(int albumsPublished) {
-        this.albumsPublished = albumsPublished;
+    public void setAlbumsPublished(final int albums) {
+        this.albumsPublished = albums;
     }
 
     // Setter to set all instance variables at once
-    public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
-            int albumsPublished) {
-        this.singerId = singerId;
-        this.singerName = singerName;
-        this.singerAddress = singerAddress;
-        this.dateOfBirth = dateOfBirth;
-        this.albumsPublished = albumsPublished;
+    public void setAllValues(final int id, final String name, final String address, final String dob,
+            final int albums) {
+        this.singerId = id;
+        this.singerName = name;
+        this.singerAddress = address;
+        this.dateOfBirth = dob;
+        this.albumsPublished = albums;
     }
 }
