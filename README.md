@@ -1,13 +1,10 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/comp-228)
+
+
 # Java Programming
 
-| Grade Item  | Weight |
-| ----------- | -------|
-| Lab0        | 0      |
-| Lab1        | 5      |
-| Lab2        | 5      |
-| Lab3        | 7      |
-| Lab4        | 10     |
-| Lab5        | 15     |
-| Lab6        | 8      |
-| MidTermTest | 25     |
-| FinalTest   | 25     |
+## Week 1
+
+## Week 2
+
+- [LAB #1 – Java Class](JohSmith_COMP228Lab1)
