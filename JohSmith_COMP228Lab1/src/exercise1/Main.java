@@ -4,6 +4,7 @@ package exercise1;
  * Main class for exercising Singer class.
  */
 public final class Main {
+    // Magic numbers contants
     private static final int INITIAL_ALBUMS = 5;
     private static final int UPDATED_ALBUMS = 8;
 
@@ -22,7 +23,8 @@ public final class Main {
         System.out.println("Default values for singer1:");
         displaySingerDetails(singer1);
 
-        singer1.setAllValues(1, "John Doe", "123 Main St", "1990-01-01", INITIAL_ALBUMS);
+        singer1.setAllValues(1, "John Doe", "123 Main St",
+                "1990-01-01", INITIAL_ALBUMS);
 
         System.out.println("\nValues after setting all at once:");
         displaySingerDetails(singer1);
@@ -55,16 +57,34 @@ public final class Main {
  * Singer class representing a singer.
  */
 class Singer {
+    // Default ID for a singer
     private static final int DEFAULT_ID = 0;
+
+    // Default name for a singer
     private static final String DEFAULT_NAME = "Unknown";
+
+    // Default address for a singer
     private static final String DEFAULT_ADDRESS = "Unknown";
+
+    // Default date of birth for a singer
     private static final String DEFAULT_DOB = "Unknown";
+
+    // Default number of albums published by a singer
     private static final int DEFAULT_ALBUMS = 0;
 
+    // ID of the singer
     private int singerId;
+
+    // Name of the singer
     private String singerName;
+
+    // Address of the singer
     private String singerAddress;
+
+    // Date of birth of the singer
     private String dateOfBirth;
+
+    // Number of albums published by the singer
     private int albumsPublished;
 
     /**
