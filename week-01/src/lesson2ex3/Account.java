@@ -33,14 +33,6 @@ public class Account {
          balance = balance - withdrawAmount; // add it to the balance
    }
 
-   // method to transfer money to another account
-   public void transfer(Account targetAccount, double amount) {
-      if (amount > 0.0 && amount <= this.balance) {
-         this.withdraw(amount);
-         targetAccount.deposit(amount);
-      }
-   }
-
    // method returns the account balance
    public double getBalance() {
       return balance;

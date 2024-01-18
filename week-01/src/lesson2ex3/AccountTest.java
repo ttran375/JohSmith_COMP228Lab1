@@ -12,9 +12,9 @@ public class AccountTest {
 
       // display initial balance of each object
       System.out.printf("%s balance: $%.2f%n",
-              account1.getName(), account1.getBalance());
+            account1.getName(), account1.getBalance());
       System.out.printf("%s balance: $%.2f%n%n",
-              account2.getName(), account2.getBalance());
+            account2.getName(), account2.getBalance());
 
       // create a Scanner to obtain input from the command window
       Scanner input = new Scanner(System.in);
@@ -22,52 +22,38 @@ public class AccountTest {
       System.out.print("Enter deposit amount for account1: "); // prompt
       double depositAmount = input.nextDouble(); // obtain user input
       System.out.printf("%nadding %.2f to account1 balance%n%n",
-              depositAmount);
+            depositAmount);
       account1.deposit(depositAmount); // add to account1's balance
 
       // display balances
       System.out.printf("%s balance: $%.2f%n",
-              account1.getName(), account1.getBalance());
+            account1.getName(), account1.getBalance());
       System.out.printf("%s balance: $%.2f%n%n",
-              account2.getName(), account2.getBalance());
+            account2.getName(), account2.getBalance());
 
       System.out.print("Enter deposit amount for account2: "); // prompt
       depositAmount = input.nextDouble(); // obtain user input
       System.out.printf("%nadding %.2f to account2 balance%n%n",
-              depositAmount);
+            depositAmount);
       account2.deposit(depositAmount); // add to account2 balance
 
       // display balances
       System.out.printf("%s balance: $%.2f%n",
-              account1.getName(), account1.getBalance());
+            account1.getName(), account1.getBalance());
       System.out.printf("%s balance: $%.2f%n%n",
-              account2.getName(), account2.getBalance());
+            account2.getName(), account2.getBalance());
 
       // withdraw some money
       double withdrawlAmount;
       System.out.print("Enter withdrawl amount for account2: "); // prompt
       withdrawlAmount = input.nextDouble(); // obtain user input
       System.out.printf("%nadding %.2f to account2 balance%n%n",
-              withdrawlAmount);
+            withdrawlAmount);
       // call the method withdraw to take the amount from account 2
       account2.withdraw(withdrawlAmount); // add to account2 balance
       // print the balance
       System.out.printf("%s balance: $%.2f%n%n",
-              account2.getName(), account2.getBalance());
-
-      // Transfer some money from account1 to account2
-      double transferAmount;
-      System.out.print("Enter transfer amount from account1 to account2: "); // prompt
-      transferAmount = input.nextDouble(); // obtain user input
-      System.out.printf("%ntransferring %.2f from account1 to account2 balance%n%n",
-              transferAmount);
-      // call the method transfer to move the amount from account 1 to account 2
-      account1.transfer(account2, transferAmount);
-      // print the balances
-      System.out.printf("%s balance: $%.2f%n",
-              account1.getName(), account1.getBalance());
-      System.out.printf("%s balance: $%.2f%n%n",
-              account2.getName(), account2.getBalance());
+            account2.getName(), account2.getBalance());
 
    } // end main
 } // end class AccountTest
