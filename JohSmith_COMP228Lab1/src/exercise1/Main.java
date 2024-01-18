@@ -9,15 +9,16 @@ public class Main {
 
         singer1.setAllValues(1, "John Doe", "123 Main St", "1990-01-01", 5);
 
-        System.out.println("\nValues after setting all at once:");
+        System.out.println("Display values after setting all:");
         displaySingerDetails(singer1);
 
+        singer1.setSingerName("Jane Doe");
         singer1.setSingerName("Jane Doe");
         singer1.setSingerAddress("456 Oak St");
         singer1.setDateOfBirth("1985-05-15");
         singer1.setAlbumsPublished(8);
 
-        System.out.println("\nCurrent values after individual changes:");
+        System.out.println("Display current value of each after the changes are done:");
         displaySingerDetails(singer1);
     }
 
@@ -45,7 +46,12 @@ class Singer {
         this.albumsPublished = 0;
     }
 
-    public Singer(int singerId, String singerName, String singerAddress, String dateOfBirth, int albumsPublished) {
+    public Singer(
+            int singerId,
+            String singerName,
+            String singerAddress,
+            String dateOfBirth,
+            int albumsPublished) {
         this.singerId = singerId;
         this.singerName = singerName;
         this.singerAddress = singerAddress;
@@ -93,7 +99,6 @@ class Singer {
         this.albumsPublished = albumsPublished;
     }
 
-    // Setter to set all instance variables at once
     public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
             int albumsPublished) {
         this.singerId = singerId;
