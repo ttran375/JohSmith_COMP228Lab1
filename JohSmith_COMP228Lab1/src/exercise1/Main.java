@@ -1,15 +1,13 @@
-/**
- * This package contains classes related to Exercise 1.
- */
 package exercise1;
 
 public class Main {
     public static void main(String[] args) {
-        // Utility classes should not be instantiated
-        // Use static methods or constants directly
-        displaySingerDetails(createSingerWithDefaultValues());
+        Singer singer1 = new Singer();
 
-        Singer singer1 = createSingerWithAllValues(1, "John Doe", "123 Main St", "1990-01-01", 5);
+        System.out.println("Default values for singer1:");
+        displaySingerDetails(singer1);
+
+        singer1.setAllValues(1, "John Doe", "123 Main St", "1990-01-01", 5);
 
         System.out.println("\nValues after setting all at once:");
         displaySingerDetails(singer1);
@@ -29,17 +27,6 @@ public class Main {
         System.out.println("Singer Address: " + singer.getSingerAddress());
         System.out.println("Date of Birth: " + singer.getDateOfBirth());
         System.out.println("Albums Published: " + singer.getAlbumsPublished() + "\n");
-    }
-
-    // Factory method to create Singer instance with default values
-    private static Singer createSingerWithDefaultValues() {
-        return new Singer(0, "Unknown", "Unknown", "Unknown", 0);
-    }
-
-    // Factory method to create Singer instance with all values
-    private static Singer createSingerWithAllValues(int singerId, String singerName, String singerAddress,
-            String dateOfBirth, int albumsPublished) {
-        return new Singer(singerId, singerName, singerAddress, dateOfBirth, albumsPublished);
     }
 }
 
