@@ -56,7 +56,7 @@ class Singer {
     }
 
     public int getSingerId() {
-        return singerId;
+        return this.singerId;
     }
 
     public void setSingerId(int singerId) {
@@ -64,7 +64,7 @@ class Singer {
     }
 
     public String getSingerName() {
-        return singerName;
+        return this.singerName;
     }
 
     public void setSingerName(String singerName) {
@@ -72,7 +72,7 @@ class Singer {
     }
 
     public String getSingerAddress() {
-        return singerAddress;
+        return this.singerAddress;
     }
 
     public void setSingerAddress(String singerAddress) {
@@ -80,7 +80,7 @@ class Singer {
     }
 
     public String getDateOfBirth() {
-        return dateOfBirth;
+        return this.dateOfBirth;
     }
 
     public void setDateOfBirth(String dateOfBirth) {
@@ -88,13 +88,14 @@ class Singer {
     }
 
     public int getAlbumsPublished() {
-        return albumsPublished;
+        return this.albumsPublished;
     }
 
     public void setAlbumsPublished(int albumsPublished) {
         this.albumsPublished = albumsPublished;
     }
 
+    // Setter to set all instance variables at once
     public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
             int albumsPublished) {
         this.singerId = singerId;
