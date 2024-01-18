@@ -29,4 +29,5 @@ jobs:
 
       - name: Run Checkstyle
         run: |
-          java -jar checkstyle-8.44-all.jar -c com/puppycrawl/tools/checkstyle/checkstyle.xml JohSmith_COMP228Lab1/src/
+                    java -jar checkstyle-8.44-all.jar -c .github/checkstyle/google_checks.xml JohSmith_COMP228Lab1/src/
+
