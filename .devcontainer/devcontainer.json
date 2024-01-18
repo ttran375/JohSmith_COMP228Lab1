@@ -8,9 +8,11 @@
         "vscode": {
             "extensions": [
 				"GitHub.copilot",
-				"streetsidesoftware.code-spell-checker",
 				"vscjava.vscode-java-pack",
-				"redhat.fabric8-analytics"
+				"redhat.fabric8-analytics",
+				"sohibe.java-generate-setters-getters",
+		    		"streetsidesoftware.code-spell-checker",
+		    
             ]
         }
     }
