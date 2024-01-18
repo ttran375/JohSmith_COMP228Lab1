@@ -29,5 +29,5 @@ jobs:
 
       - name: Run Checkstyle
         run: |
-                    java -jar checkstyle-8.44-all.jar -c .github/checkstyle/sun_checks.xml JohSmith_COMP228Lab1/src/
+                    java -jar checkstyle-8.44-all.jar -c .github/checkstyle/sun_checks.xml src/
 
