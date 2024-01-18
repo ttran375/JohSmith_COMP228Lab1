@@ -34,7 +34,8 @@ public class Main {
         System.out.println("Singer Name: " + singer.getSingerName());
         System.out.println("Singer Address: " + singer.getSingerAddress());
         System.out.println("Date of Birth: " + singer.getDateOfBirth());
-        System.out.println("Albums Published: " + singer.getAlbumsPublished() + "\n");
+        System.out.println("Albums Published: " +
+                singer.getAlbumsPublished() + "\n");
     }
 }
 
