@@ -4,8 +4,14 @@ package exercise1;
  * Main class for exercising Singer class.
  */
 public final class Main {
-    // Magic numbers contants
+    /**
+     * The initial number of albums for a singer.
+     */
     private static final int INITIAL_ALBUMS = 5;
+
+    /**
+     * The updated number of albums for a singer.
+     */
     private static final int UPDATED_ALBUMS = 8;
 
     private Main() {
@@ -57,34 +63,34 @@ public final class Main {
  * Singer class representing a singer.
  */
 class Singer {
-    // Default ID for a singer
+    /** Default ID for a singer. */
     private static final int DEFAULT_ID = 0;
 
-    // Default name for a singer
+    /** Default name for a singer. */
     private static final String DEFAULT_NAME = "Unknown";
 
-    // Default address for a singer
+    /** Default address for a singer. */
     private static final String DEFAULT_ADDRESS = "Unknown";
 
-    // Default date of birth for a singer
+    /** Default date of birth for a singer. */
     private static final String DEFAULT_DOB = "Unknown";
 
-    // Default number of albums published by a singer
+    /** Default number of albums published by a singer. */
     private static final int DEFAULT_ALBUMS = 0;
 
-    // ID of the singer
+    /** ID of the singer. */
     private int singerId;
 
-    // Name of the singer
+    /** Name of the singer. */
     private String singerName;
 
-    // Address of the singer
+    /** Address of the singer. */
     private String singerAddress;
 
-    // Date of birth of the singer
+    /** Date of birth of the singer. */
     private String dateOfBirth;
 
-    // Number of albums published by the singer
+    /** Number of albums published by the singer. */
     private int albumsPublished;
 
     /**
@@ -157,7 +163,11 @@ class Singer {
     }
 
     // Setter to set all instance variables at once
-    public void setAllValues(final int id, final String name, final String address, final String dob,
+    public void setAllValues(
+            final int id,
+            final String name,
+            final String address,
+            final String dob,
             final int albums) {
         this.singerId = id;
         this.singerName = name;
