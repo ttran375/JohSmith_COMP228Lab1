@@ -1,5 +1,6 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/JohSmith_COMP228Lab1)
 
+[![Style Check](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml/badge.svg)](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml)
 
 **Centennial College**
 
