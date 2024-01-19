@@ -15,7 +15,6 @@ public final class Main {
     private static final int UPDATED_ALBUMS = 8;
 
     private Main() {
-        // Prevent instantiation
     }
 
     /**
@@ -143,7 +142,6 @@ class Singer {
         this.albumsPublished = albums;
     }
 
-    // Setter to set all instance variables at once
     public void setAllValues(
             final int id,
             final String name,
