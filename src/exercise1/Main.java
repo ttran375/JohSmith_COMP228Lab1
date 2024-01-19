@@ -63,20 +63,6 @@ public final class Main {
  * Singer class representing a singer.
  */
 class Singer {
-    /** Default ID for a singer. */
-    private static final int DEFAULT_ID = 0;
-
-    /** Default name for a singer. */
-    private static final String DEFAULT_NAME = "Unknown";
-
-    /** Default address for a singer. */
-    private static final String DEFAULT_ADDRESS = "Unknown";
-
-    /** Default date of birth for a singer. */
-    private static final String DEFAULT_DOB = "Unknown";
-
-    /** Default number of albums published by a singer. */
-    private static final int DEFAULT_ALBUMS = 0;
 
     /** ID of the singer. */
     private int singerId;
@@ -97,11 +83,6 @@ class Singer {
      * Default constructor for Singer class.
      */
     Singer() {
-        this.singerId = DEFAULT_ID;
-        this.singerName = DEFAULT_NAME;
-        this.singerAddress = DEFAULT_ADDRESS;
-        this.dateOfBirth = DEFAULT_DOB;
-        this.albumsPublished = DEFAULT_ALBUMS;
     }
 
     /**
