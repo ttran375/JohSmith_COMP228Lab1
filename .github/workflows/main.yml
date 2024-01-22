@@ -31,4 +31,5 @@ jobs:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_GOOGLE_JAVA_FORMAT: false
+          JAVA_FILE_NAME: sun_checks.xml
 ...
