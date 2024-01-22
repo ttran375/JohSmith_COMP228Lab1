@@ -1,4 +1,4 @@
-package exercise1;
+package exerciseone;
 
 /**
  * Singers class representing a singer.

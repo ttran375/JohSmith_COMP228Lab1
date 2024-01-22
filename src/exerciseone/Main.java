@@ -1,4 +1,4 @@
-package exercise1;
+package exerciseone;
 
 /**
  * Main class for exercising Singer class.
