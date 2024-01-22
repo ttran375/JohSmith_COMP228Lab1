@@ -2,7 +2,7 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/JohSmith_COMP228Lab1)
 
-[![Style Check](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml/badge.svg)](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml)
+[![Style Check](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/main.yml/badge.svg)](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/main.yml)
 
 You must name your Eclipse/IntelliJ project according to the following
 rule:
@@ -14,12 +14,12 @@ Example: **JohSmith_COMP228Lab1**
 Each exercise should be placed in a separate package named *exercise1*,
 *exercise2*, etc.
 
-Submit your assignment in a **zip file** that is named according to the
+Submit your assignment in a **ZIP file** that is named according to the
 following rule:
 
-**YourLastName_COMP228Labnumber.zip**
+**YourLastName_COMP228Labnumber.ZIP**
 
-Example: **JohSmith_COMP228Lab1.zip**
+Example: **JohSmith_COMP228Lab1.ZIP**
 
 Apply the naming conventions for variables, methods, classes, and
 packages:
