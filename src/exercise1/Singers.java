@@ -1,159 +1,70 @@
-package exercise1;
+package src.exercise1;
 
-/**
- * Singers class representing a singer.
- * This class is not designed for extension.
- */
-public final class Singers {
+public class Singers {
+    private int _singerId;
+    private String _singerName;
+    private String _singerAddress;
+    private String _dateOfBirth;
+    private int _numOfAlbumsPublished;
 
-    /** ID of the singer. */
-    private int singerId;
-
-    /** Name of the singer. */
-    private String singerName;
-
-    /** Address of the singer. */
-    private String singerAddress;
-
-    /** Date of birth of the singer. */
-    private String dateOfBirth;
-
-    /** Number of albums published by the singer. */
-    private int albumsPublished;
-
-    /**
-     * Default constructor for Singer class.
-     */
     public Singers() {
     }
 
-    /**
-     * Parameterized constructor for Singer class.
-     *
-     * @param id      The singer ID.
-     * @param name    The singer name.
-     * @param address The singer address.
-     * @param dob     The date of birth.
-     * @param albums  The number of albums published.
-     */
-    public Singers(final int id, final String name, final String address,
-            final String dob, final int albums) {
-        this.singerId = id;
-        this.singerName = name;
-        this.singerAddress = address;
-        this.dateOfBirth = dob;
-        this.albumsPublished = albums;
+    public Singers(int singerId, String singerName, String singerAddress, String dateOfBirth,
+            int numOfAlbumsPublished) {
+        _singerId = singerId;
+        _singerName = singerName;
+        _singerAddress = singerAddress;
+        _dateOfBirth = dateOfBirth;
+        _numOfAlbumsPublished = numOfAlbumsPublished;
     }
 
-    /**
-     * Gets the singer ID.
-     *
-     * @return The singer ID.
-     */
     public int getSingerId() {
-        return this.singerId;
+        return _singerId;
     }
 
-    /**
-     * Sets the singer ID.
-     *
-     * @param id The new singer ID.
-     */
-    public void setSingerId(final int id) {
-        this.singerId = id;
+    public void setSingerId(int singerId) {
+        _singerId = singerId;
     }
 
-    /**
-     * Gets the singer name.
-     *
-     * @return The singer name.
-     */
     public String getSingerName() {
-        return this.singerName;
+        return _singerName;
     }
 
-    /**
-     * Sets the singer name.
-     *
-     * @param name The new singer name.
-     */
-    public void setSingerName(final String name) {
-        this.singerName = name;
+    public void setSingerName(String singerName) {
+        _singerName = singerName;
     }
 
-    /**
-     * Gets the singer address.
-     *
-     * @return The singer address.
-     */
     public String getSingerAddress() {
-        return this.singerAddress;
+        return _singerAddress;
     }
 
-    /**
-     * Sets the singer address.
-     *
-     * @param address The new singer address.
-     */
-    public void setSingerAddress(final String address) {
-        this.singerAddress = address;
+    public void setSingerAddress(String singerAddress) {
+        _singerAddress = singerAddress;
     }
 
-    /**
-     * Gets the singer's date of birth.
-     *
-     * @return The singer's date of birth.
-     */
     public String getDateOfBirth() {
-        return this.dateOfBirth;
+        return _dateOfBirth;
     }
 
-    /**
-     * Sets the singer's date of birth.
-     *
-     * @param dob The new date of birth.
-     */
-    public void setDateOfBirth(final String dob) {
-        this.dateOfBirth = dob;
+    public void setDateOfBirth(String dateOfBirth) {
+        _dateOfBirth = dateOfBirth;
     }
 
-    /**
-     * Gets the number of albums published by the singer.
-     *
-     * @return The number of albums published.
-     */
-    public int getAlbumsPublished() {
-        return this.albumsPublished;
+    public int getNumOfAlbumsPublished() {
+        return _numOfAlbumsPublished;
     }
 
-    /**
-     * Sets the number of albums published by the singer.
-     *
-     * @param albums The new number of albums published.
-     */
-    public void setAlbumsPublished(final int albums) {
-        this.albumsPublished = albums;
+    public void setNumOfAlbumsPublished(int numOfAlbumsPublished) {
+        _numOfAlbumsPublished = numOfAlbumsPublished;
     }
 
-    /**
-     * Sets all values for the singer.
-     *
-     * @param id      The new singer ID.
-     * @param name    The new singer name.
-     * @param address The new singer address.
-     * @param dob     The new date of birth.
-     * @param albums  The new number of albums published.
-     */
-    public void setAllValues(
-            final int id,
-            final String name,
-            final String address,
-            final String dob,
-            final int albums) {
-        this.singerId = id;
-        this.singerName = name;
-        this.singerAddress = address;
-        this.dateOfBirth = dob;
-        this.albumsPublished = albums;
+    public void setAllValues(int singerId, String singerName, String singerAddress, String dateOfBirth,
+            int numOfAlbumsPublished) {
+        _singerId = singerId;
+        _singerName = singerName;
+        _singerAddress = singerAddress;
+        _dateOfBirth = dateOfBirth;
+        _numOfAlbumsPublished = numOfAlbumsPublished;
     }
 }
