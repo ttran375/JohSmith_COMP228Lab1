@@ -135,25 +135,4 @@ public final class Singers {
         this.albumsPublished = albums;
     }
 
-    /**
-     * Sets all values for the singer.
-     *
-     * @param id      The new singer ID.
-     * @param name    The new singer name.
-     * @param address The new singer address.
-     * @param dob     The new date of birth.
-     * @param albums  The new number of albums published.
-     */
-    public void setAllValues(
-            final int id,
-            final String name,
-            final String address,
-            final String dob,
-            final int albums) {
-        this.singerId = id;
-        this.singerName = name;
-        this.singerAddress = address;
-        this.dateOfBirth = dob;
-        this.albumsPublished = albums;
-    }
 }
