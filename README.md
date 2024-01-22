@@ -1,49 +1,8 @@
+# LAB \#1 – Java Class
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/JohSmith_COMP228Lab1)
 
 [![Style Check](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml/badge.svg)](https://github.com/ttran375/JohSmith_COMP228Lab1/actions/workflows/stylecheck.yml)
-
-**Centennial College**
-
-**COMP 228: Java Programming**
-
-**LAB \#1 – Java Class**
-
-**Student:**
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-Due Date: Week 3
-
-References: Learning materials for week 1, 2, textbook, and other
-references (if any)
-
-Purpose: The purpose of this Lab assignment is to:
-
-- Practice the use Java classes, Java methods, and other concepts
-  taught.
-
-This material provides the necessary information you need to complete
-the exercises.
-
-Be sure to read the following general instructions carefully:
-
-> This lab should be completed individually by all the students.
->
-> YOU NEED TO SUBMIT THE FOLLOWING 2 DOCUMENTS IN THE DROPBOX TITLED
-> LAB1:
-
-1.  THE FIRST ONE IS A WORD DOCUMENT. USE THIS DOCUMENT AS YOUR FIRST
-    DELIVERABLE. DO NOT DELETE THE INSTRUCTIONS OR QUESTIONS. AT THE END
-    OF THIS DOCUMENT SIMPLY ADD SCREEN SHOTS OF THE RUNNING STATE OF
-    EACH EXERCISE (If there are more than 1 exercise). THE SCREEN SHOTS
-    SHOULD COVER ALL THE ASPECTS/FUNCTIONALITIES OF EACH EXERCISE (If
-    there are more than 1 exercise).. AFTER THE SCREEN SHOTS PLEASE COPY
-    THE CODE FROM THE CODE WINDOW AND PASTE THE COMPLETE CODE. DO NOT
-    GIVE ME THE SCREEN SHOTS OF THE CODE. DO NOT ZIP THIS FILE AND KEEP
-    IT SEPARATE FROM YOUR ZIPPED PROGAM FOLDER.
-
-2.  SUBMIT ALSO ONE ZIPPED PROJECT FOLDER/FILE THAT CONTAINS ALL THE
-    EXERISES (If there are more than 1 exercise) SEPARATELY INTO THE
-    SAME DROP BOX.
 
 You must name your Eclipse/IntelliJ project according to the following
 rule:
