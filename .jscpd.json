@@ -1,0 +1,6 @@
+{
+  "threshold": 100,
+  "reporters": ["console"],
+  "ignore": ["**/node_modules/**", "**/*.spec.ts", "**/*.test.ts"],
+  "languages": ["java"]
+}
