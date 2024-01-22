@@ -44,7 +44,7 @@ Create a class named Singers with the following specifications:
   recommended variable naming conventions and appropriate data type for
   each instance variable):
 
-  - Singer’s id
+  - Singer’s ID
 
   - Singer’s name
 
